@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasterData", "MasterData\MasterData.csproj", "{9D7E141F-8906-4D95-B199-881571C83079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StorageAreaDrawer", "StorageAreaDrawer\StorageAreaDrawer.csproj", "{DAF46C14-4BA2-4C3A-8C4F-485050EE167D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D7E141F-8906-4D95-B199-881571C83079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7E141F-8906-4D95-B199-881571C83079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7E141F-8906-4D95-B199-881571C83079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7E141F-8906-4D95-B199-881571C83079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DAF46C14-4BA2-4C3A-8C4F-485050EE167D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAF46C14-4BA2-4C3A-8C4F-485050EE167D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAF46C14-4BA2-4C3A-8C4F-485050EE167D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAF46C14-4BA2-4C3A-8C4F-485050EE167D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

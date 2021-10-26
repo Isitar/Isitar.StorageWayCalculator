@@ -1,0 +1,33 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="StorageAreaDrawer.MainWindow"
+        Title="StorageAreaDrawer">
+    <Grid>
+        <Grid.RowDefinitions>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="Auto" />
+        </Grid.ColumnDefinitions>
+        <Canvas Grid.Row="0" x:Name="cnvStorageArea" Background="LightGray" />
+        <StackPanel Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top">
+
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10">
+                <Label Margin="0 0 10 0">Width:</Label>
+                <TextBox x:Name="txtWidth" Text="100" />
+            </StackPanel>
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="10">
+                <Label Margin="0 0 10 0">Height:</Label>
+                <TextBox x:Name="txtHeight" Text="50" />
+            </StackPanel>
+            <Button HorizontalAlignment="Stretch" Click="InitClicked" Background="LightBlue" Margin="10" HorizontalContentAlignment="Center">Init</Button>
+            <Button HorizontalAlignment="Stretch" Click="LoadClicked" Background="Orange" Margin="10" HorizontalContentAlignment="Center">Load</Button>
+            <Button HorizontalAlignment="Stretch" Click="SaveClicked" Background="LightGreen" Margin="10" HorizontalContentAlignment="Center">Save</Button>
+        </StackPanel>
+
+    </Grid>
+
+</Window>

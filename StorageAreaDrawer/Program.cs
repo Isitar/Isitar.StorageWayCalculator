@@ -1,10 +1,8 @@
-﻿using System;
-using Avalonia;
-using Avalonia.Controls;
-using Avalonia.Controls.ApplicationLifetimes;
-
-namespace StorageAreaDrawer
+﻿namespace Isitar.StorageWayCalculator.StorageAreaDrawer
 {
+    using System;
+    using Avalonia;
+
     class Program
     {
         // Initialization code. Don't use any Avalonia, third-party APIs or any

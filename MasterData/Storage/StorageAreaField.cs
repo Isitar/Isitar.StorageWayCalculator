@@ -11,6 +11,8 @@ namespace Isitar.StorageWayCalculator.MasterData.Storage
 
     public class StorageAreaField
     {
+        public StorageAreaField() {}
+        
         public Guid StorageId { get; set; } = Guid.NewGuid();
         public StorageAreaFieldType Type { get; set; } = StorageAreaFieldType.Free;
         public string DisplayName { get; set; }

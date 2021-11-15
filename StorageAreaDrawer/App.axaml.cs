@@ -1,9 +1,9 @@
-using Avalonia;
-using Avalonia.Controls.ApplicationLifetimes;
-using Avalonia.Markup.Xaml;
-
-namespace StorageAreaDrawer
+namespace Isitar.StorageWayCalculator.StorageAreaDrawer
 {
+    using Avalonia;
+    using Avalonia.Controls.ApplicationLifetimes;
+    using Avalonia.Markup.Xaml;
+
     public class App : Application
     {
         public override void Initialize()

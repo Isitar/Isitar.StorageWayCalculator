@@ -3,7 +3,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
-        x:Class="StorageAreaDrawer.MainWindow"
+        x:Class="Isitar.StorageWayCalculator.StorageAreaDrawer.MainWindow"
         Title="StorageAreaDrawer">
     <Grid>
         <Grid.RowDefinitions>
@@ -26,6 +26,7 @@
             <Button HorizontalAlignment="Stretch" Click="InitClicked" Background="LightBlue" Margin="10" HorizontalContentAlignment="Center">Init</Button>
             <Button HorizontalAlignment="Stretch" Click="LoadClicked" Background="Orange" Margin="10" HorizontalContentAlignment="Center">Load</Button>
             <Button HorizontalAlignment="Stretch" Click="SaveClicked" Background="LightGreen" Margin="10" HorizontalContentAlignment="Center">Save</Button>
+            <Button HorizontalAlignment="Stretch" Click="CalculateWaysClicked" Background="Salmon" Margin="10" HorizontalContentAlignment="Center">Calculate Ways</Button>
         </StackPanel>
 
     </Grid>
